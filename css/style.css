@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "HARD_ROCK";
+    src: url(../font/HARD_ROCK.ttf);
+}
+
+@font-face {
+    font-family: "rocknroll_typo_crazy";
+    src: url(../font/rocknroll_typo_crazy.ttf);
+}
+
+
+@font-face {
+    font-family: "TheDark";
+    src: url(../font/TheDark.ttf);
+
+
+}
+
+body {
+    background: linear-gradient(115deg, #000000 20%, #E9290F 20%, #E9290F 45%, #000000 45%, #000000 75%, red 75%);
+    
+}
+
+.titre {
+    font-family: "TheDark";
+
+}
+
+/* header nav{
+    
+} */
+.menu>a {
+    color: #E9290F;
+    font-family: "TheDark";
+}
+
+.image {
+    margin-top: 10%;
+    box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.233);
+    padding: 2%;
+}
+
+.corps {
+    color: rgb(255, 255, 255);
+    font-family: "TheDark";
+}
+
+
+.formulaire::placeholder {
+    color: #E9290F;
+    font-family: "TheDark";
+    font-size: 1.5em;
+}
+
+.envoi {
+    font-size: 100%;
+    font-family: "rocknroll_typo_crazy";
+    font-weight: bold;
+}
+
+.annuler {
+    font-size: 100%;
+    font-family: "rocknroll_typo_crazy";
+    font-weight: bold;
+}
+
+.boutton_disco {
+    font-family: "rocknroll_typo_crazy";
+    font-size: 1.3em;
+}
+
+i {
+    color: #7f170a;
+
+}
+
+.nav-toggle-button
+{
+    color: rgb(16, 195, 34);
+}
+
+@media (max-width:991px) {
+    .sidebar {
+        background-color: #00000019;
+        padding: 10px;
+
+    }
+
+}
